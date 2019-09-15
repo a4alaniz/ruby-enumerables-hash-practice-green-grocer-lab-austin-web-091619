@@ -30,7 +30,8 @@ def apply_coupons(cart, coupons)
    end
    cart[item][:count] -= coupon[:num]
   end
- end  
+ end 
+ end
  cart
 end
 
